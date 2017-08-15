@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.login-bj{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 50%;
+    height: 550px;
+    background:url("../images/login_bj.jpg") no-repeat;
+    background-size: 100% 100%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+.fa-user,.fa-lock{
+    font-size: 20px;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    color: #8e8e8e;
+    background-color: #dfdfdf;
+    float: left;
+}
+.fa-caret-right{
+    float: right;
+    font-size: 18px;
+    line-height: 35px;
+    margin-right: 10px;
+    margin-top: 1px;
+}
+input,button{
+    outline: none;
+    border: none;
+}
+.login{
+    padding: 50px 100px 50px 50px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    background-color: #efefef;
+    border-radius: 10px;
+    border: 1px solid #cdcdcd;
+    box-shadow: 3px 3px 55px rgba(0,0,0,0.3);
+}
+.login form p{
+    color: #555;
+    overflow: hidden;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+.login form p.line{
+    border: 1px solid #7ea2b8;
+    background-color: #fff;
+}
+.login form p input{
+    width: 260px;
+    height: 35px;
+    padding-left: 10px;
+    float: left;
+}
+.login form p button{
+    width: 100px;
+    height: 35px;
+    margin-top: 20px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #094d8b;
+    line-height: 35px;
+}
+.login form p button span{
+    margin-left: 6px;
+    font-size: 13px;
+}

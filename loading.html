@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>加载中</title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta name="viewport"
+          content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width"/>
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <meta name="generator" content=""/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-title" content=""/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="msapplication-TileColor" content="">
+
+    <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+
+<div class="loading">
+    <div class="loading-img">
+        <img src="images/loading.gif" alt="">
+        <p>正在生成检测报告......</p>
+    </div>
+    <div class="code">
+        <div class="code-img">
+            <img src="images/code.jpeg" alt="">
+        </div>
+        <p>请长按识别二维码，查看检测报告</p>
+    </div>
+</div>
+</body>
+<!--jQuery-->
+<script src="js/jquery.min.js"></script>
+<script>
+    setTimeout(function () {
+        $('.loading-img').css('display','none');
+        $('.code').addClass('code-active');
+        $('.loading').addClass('loading-active');
+    },3000)
+</script>
+</html>
