@@ -3,8 +3,8 @@
     margin-top: 16%;
 }
 .error-img img{
-    width: 260px;
-    height: 260px;
+    width: 230px;
+    height: 230px;
 }
 .error-info{
     width: 100%;
@@ -19,7 +19,7 @@
     color: #999;
 }
 .error-btn{
-    width: 90%;
+    width: 85%;
     height: 45px;
     line-height: 45px;
     color: #fff;
