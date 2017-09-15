@@ -1,0 +1,76 @@
+.header{
+    padding: 20px 10px;
+    background-color: #16ae95;
+}
+.header-log{
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+.header-log img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.header-info{
+    width: 70%;
+    float: left;
+    padding-left: 5px;
+    color: #fff;
+    line-height: 55px;
+}
+.information{
+    padding: 10px 0;
+}
+.information ul li{
+    width: 80%;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 auto;
+    border-bottom: 1px solid #e3e3e3;
+    margin-bottom: 10px;
+}
+.iconfont{
+    font-size: 23px;
+    margin-right: 10px;
+}
+.icon-xingming{
+    color: #4f84c8;
+}
+.icon-xingbie{
+    color: #c86eac;
+}
+.icon-appshijiannianlingdizhi43{
+    color: #70c822;
+}
+
+.code-img{
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+}
+.code-img img{
+    width: 100%;
+    height: 100%;
+}
+.code-info p{
+    text-align: center;
+    margin-top: 25px;
+}
+.look{
+    text-align: center;
+    display: none;
+}
+.look span{
+    display: block;
+    width: 120px;
+    height: 40px;
+    margin: 0 auto;
+    line-height: 40px;
+    text-align: center;
+    background-color: #16ae95;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 14px;
+}

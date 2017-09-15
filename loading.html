@@ -17,6 +17,70 @@
     <meta name="msapplication-TileColor" content="">
 
     <link rel="stylesheet" href="css/base.css">
+    <style>
+        /*loading*/
+
+        .loading{
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background-color: #fff;
+        }
+        .loading.loading-active{
+            transition: all .5s;
+            -webkit-transition: all .5s;
+            background-color: #758fbf;
+        }
+        .loading-img{
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            -webkit-transform: translate(-50%,-50%);
+            text-align: center;
+        }
+        .loading-img img{
+            width: 300px;
+            height: 200px;
+        }
+        .loading-img p{
+            margin-top: 5px;
+        }
+        .code{
+            position: fixed;
+            top: 50%;
+            left: 0;
+            right: 0;
+            text-align: center;
+            transform: translateY(-50%) scale(0);
+            -webkit-transform:translateY(-50%) scale(0);
+            text-align: center;
+            transition: all 1s;
+            -webkit-transition: all 1s;
+        }
+        .code-img{
+            width: 160px;
+            height: 160px;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 0 auto;
+            background-color: #fff;
+        }
+        .code img{
+            width: 100%;
+            height: 100%;
+        }
+        .code p{
+            margin: 50px 0;
+            color: #fff;
+        }
+        .code.code-active{
+            transform:translateY(-50%) scale(1);
+            -webkit-transform:translateY(-50%) scale(1);
+        }
+    </style>
 </head>
 <body>
 

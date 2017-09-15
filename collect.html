@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>体检报告</title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta name="viewport"
+          content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width"/>
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <meta name="generator" content=""/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-title" content=""/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="msapplication-TileColor" content="">
+    <!--图标字体-->
+    <link rel="stylesheet" href="fonts/iconfont.css">
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/collect.css">
+</head>
+<body>
+<div class="collect">
+    <div class="header clearfix">
+        <div class="header-log">
+            <img src="images/header.jpg" alt="">
+        </div>
+        <div class="header-info">
+            <p>体检报告</p>
+        </div>
+    </div>
+    <div class="information">
+        <ul>
+            <li>
+                <i class="iconfont icon-xingming"></i>
+                <span>昵称:李宁伟</span>
+            </li>
+            <li>
+                <i class="iconfont icon-xingbie"></i>
+                <span>性别:男</span>
+            </li>
+            <li>
+                <i class="iconfont icon-appshijiannianlingdizhi43"></i>
+                <span>年龄:25</span>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="code">
+        <div class="code-img">
+            <img src="images/code.jpeg" alt="">
+        </div>
+        <div class="code-info">
+            <p>长按二维码查看体检报告</p>
+        </div>
+    </div>
+
+    <div class="look">
+        <span>查看结果</span>
+    </div>
+</div>
+</body>
+<!--jQuery-->
+<script src="js/jquery.min.js"></script>
+<script>
+    setTimeout(function () {
+        $('.code').css('display','none');
+        $('.look').css('display','block');
+    },3000)
+    $('.look span').on('click',function () {
+        window.location.href="index.html"
+    })
+
+</script>
+</html>
